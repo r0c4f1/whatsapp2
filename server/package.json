@@ -1,0 +1,27 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dist/main.js",
+    "build": "tsc",
+    "dev": "node --watch dist/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/socket.io": "3.0.1",
+    "express": "5.1.0",
+    "mysql": "2.18.1",
+    "socket.io": "4.8.1"
+  },
+  "devDependencies": {
+    "@types/express": "5.0.1",
+    "@types/mysql": "2.15.27",
+    "@types/node": "22.15.17"
+  }
+}
